@@ -1,4 +1,4 @@
-FROM php:8.0-apache
+FROM php:8.4.0RC4-apache
 
 ADD ./index.php /var/www/html/index.php
 ADD ./flag.txt /var/www/flag.txt
